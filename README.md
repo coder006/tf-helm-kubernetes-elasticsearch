@@ -1,3 +1,5 @@
+# Installing Elasticsearch inside a Kubernetes cluster with Helm and Terraform
+
 > ___Note___:
 > This guide uses Terraform for making API calls and state management. If you have helm installed on your machine, you can use that instead for installing the chart.
 
