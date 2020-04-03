@@ -39,17 +39,17 @@ RAW_VALUES
   ]
 
   set {
-    name = "imageTag"
+    name  = "imageTag"
     value = "7.6.2"
   }
 
   set {
-    name = "clusterName"
+    name  = "clusterName"
     value = "elasticsearch-cluster"
   }
 
   set {
-    name = "nodeGroup"
+    name  = "nodeGroup"
     value = "master"
   }
 }
@@ -81,17 +81,17 @@ RAW_VALUES
   ]
 
   set {
-    name = "imageTag"
+    name  = "imageTag"
     value = "7.6.2"
   }
 
   set {
-    name = "clusterName"
+    name  = "clusterName"
     value = "elasticsearch-cluster"
   }
 
   set {
-    name = "nodeGroup"
+    name  = "nodeGroup"
     value = "data"
   }
 }

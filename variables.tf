@@ -12,6 +12,20 @@ variable "elasticsearch" {
       memory = number
     })
   })
+
+  default = {
+    master_node = {
+      volume_size = 20
+      cpu = 1
+      memory = 1.5
+    }
+
+    data_node = {
+      volume_size = 20
+      cpu = 1
+      memory = 1.5
+    }
+  }
 }
 
 variable "kubeconfig_file_path" {
